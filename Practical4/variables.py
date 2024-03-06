@@ -16,7 +16,7 @@ x=True
 y=False
 w=x or y
 print(w)
-#when x and y are both true,w is true
+#when x and y are both true,w is false
 #when x is true y is false,w is true
 #when x is false y is true,w is true
 #when x and y are both false,w is false
