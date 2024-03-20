@@ -8,6 +8,6 @@ my_dict={}
 AS={"sleeping":a,"classes":b,"studying":c,"tv":d,"music":e,"other":f}
 s=input("the time of activity you want to know")
 if s in AS :
-    print("the times is AS[s]","hours")
+    print("the times is", AS[s],"hours.")
 else :
     print("wrong")
