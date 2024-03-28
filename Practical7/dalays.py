@@ -21,15 +21,14 @@ for i in range (len(dalys_data)):
         AFG_index.append(False)
 print(dalys_data.loc[AFG_index,'DALYs'])
 
-#deal with data of China
-#identify the rows of China
+#deal with data 
+#identify the rows 
 CN_index=[]
 for i in range (len(dalys_data)):
     if dalys_data.iloc[i,0]=='China':
         CN_index.append(True)
     else:
         CN_index.append(False)
-#create object "china_data"
 china_data=dalys_data.loc[CN_index,:]
 #calculate mean value
 CN_mean_data=np.mean(china_data.loc[:,'DALYs'])
