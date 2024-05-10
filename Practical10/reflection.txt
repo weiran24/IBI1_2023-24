@@ -1,0 +1,2 @@
+It is diffcult to do all the work. 
+The most important lesson I learned was how to use where() and the np.random.choice().
