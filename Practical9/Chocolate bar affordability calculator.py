@@ -5,7 +5,7 @@ def calculator(total_money,price):
     return number, left
 
 #example
-total=100
-bar=7
+total=1124
+bar=26
 numbers,change = calculator(total,bar)
  print(f'Bars:{numbers}, Change left over:{change}')
