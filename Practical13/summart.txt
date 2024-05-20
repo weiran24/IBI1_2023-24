@@ -1,0 +1,5 @@
+Human and rat are 91.7 percent and score is 3107.
+Human and mouse are 92.5 percent and score is 3137. 
+Rat and mouse are 96.8 percent and the score is 3261.
+Rat and mouse are most closely related
+Mouse is a bettermodel organism for human based on the data analysed here.
